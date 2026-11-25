@@ -1,0 +1,30 @@
+# ── reference genomes (download_refs.sh) ─────────────────────────────────────
+ref/*.fa
+ref/*.fa.*
+ref/genomes.zip
+ref/genomes_raw/
+ref/combined_ref.fa
+ref/combined_ref.fa.*
+
+# ── simulated reads (generate_shotgun.sh) ────────────────────────────────────
+reads/
+
+# ── assemblies + BWA index (denovo.sh) ───────────────────────────────────────
+assemblies/
+
+# ── backmapping BAMs (backmap.sh) ────────────────────────────────────────────
+backmapping/
+
+# ── coverage tables (binning.sh) ─────────────────────────────────────────────
+counts/
+
+# ── binning outputs (binning.sh / tnf.py) ────────────────────────────────────
+binning/
+
+# ── anvio databases ──────────────────────────────────────────────────────────
+anvio/
+
+# ── misc generated files ─────────────────────────────────────────────────────
+diamond-log-file.txt
+rename_report.txt
+test.png
