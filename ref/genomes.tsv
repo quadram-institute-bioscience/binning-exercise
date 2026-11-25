@@ -1,0 +1,6 @@
+fasta_name	species	strain	ncbi_accession
+e_coli.fa	Escherichia coli	K-12 MG1655	GCF_000005845.2
+s_aureus.fa	Staphylococcus aureus	MRSA252	GCF_000011505.1
+p_aeruginosa.fa	Pseudomonas aeruginosa	PAO1	GCF_000006765.1
+b_subtilis.fa	Bacillus subtilis	168	GCF_000009045.1
+m_tuberculosis.fa	Mycobacterium tuberculosis	H37Rv	GCF_000195955.2
