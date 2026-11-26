@@ -68,10 +68,7 @@ notes/results.md      benchmark results and interpretation
 ```
 
 ## Notes
-
-**MEGAHIT on Apple Silicon:** MEGAHIT v1.2.9 segfaults on ARM64 macOS with its
-default memory mode. `denovo.sh` includes `--no-hw-accel --mem-flag 0` to work around this.
-
+ 
 **Coverage metric:** `bamcountrefs --trimmed-mean` (5th–95th percentile depth per position).
 Raw counts are proportional to contig length and inflate long contigs from rare species;
 trimmed mean depth is length-normalised and robust against coverage spikes at contig ends.
